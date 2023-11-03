@@ -17,7 +17,7 @@ non_prime = 0
 
 # start a timer to calculate the time taken to run the program
 start_time = time.perf_counter()
-for i in range(1, 100000):
+for i in range(1, 1000000):
     num = i
     itr = int(sqrt(num)+1) # number always has to be at least one
     
